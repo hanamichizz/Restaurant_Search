@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.telly:mrvector-0.2.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mrvector-0.2.0.aar/fe62d4eebbc6ea5ea3f8ee6f0f0e1386/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mrvector-0.2.0.aar/fe62d4eebbc6ea5ea3f8ee6f0f0e1386/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mrvector-0.2.0.aar/f917c1293a47fdd2815602b4b6722ad1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mrvector-0.2.0.aar/f917c1293a47fdd2815602b4b6722ad1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
