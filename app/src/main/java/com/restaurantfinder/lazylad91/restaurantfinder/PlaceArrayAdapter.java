@@ -76,7 +76,6 @@ public class PlaceArrayAdapter
                     Places.GeoDataApi
                             .getAutocompletePredictions(mGoogleApiClient, constraint.toString(),
                                     mBounds, mPlaceFilter);
-            // Wait for predictions, set the timeout.
             AutocompletePredictionBuffer autocompletePredictions = results
                     .await(60, TimeUnit.SECONDS);
             final Status status = autocompletePredictions.getStatus();
@@ -107,11 +106,6 @@ public class PlaceArrayAdapter
     }
 
 
-    /*public AutocompleteFilter getFilter() {
-        AutocompleteFilter filter1 = new AutocompleteFilter.Builder().setTypeFilter(Place.TYPE_GYM).build();
-
-    return filter1;
-    }*/
     @Override
     public Filter getFilter() {
         Filter filter = new Filter() {
